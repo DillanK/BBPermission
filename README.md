@@ -1,3 +1,5 @@
+[![Swift 5.0](https://img.shields.io/badge/Swift-5.x+-orange.svg?style=flat)](https://developer.apple.com/swift/)
+[![Pod](https://img.shields.io/cocoapods/p/RippleEffectView.svg?style=flat)]
 # BBPermission
 
 BBPermissions is a Swift framework that makes handling various iOS system permissions (Location, Camera, Microphone, etc.) a breeze. Manage permission status checks, requests, and denials all in one go! 🎉 This framework hides complex permission logic behind simple APIs, letting developers build apps faster. 😎
