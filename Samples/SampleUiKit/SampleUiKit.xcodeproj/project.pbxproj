@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		115369EF2E8E67B60061877E /* BBPermissionAppTracking in Frameworks */ = {isa = PBXBuildFile; productRef = 115369EE2E8E67B60061877E /* BBPermissionAppTracking */; };
+		115369F12E8E67B60061877E /* BBPermissionAppleMusic in Frameworks */ = {isa = PBXBuildFile; productRef = 115369F02E8E67B60061877E /* BBPermissionAppleMusic */; };
+		115369F32E8E67B60061877E /* BBPermissionBluetooth in Frameworks */ = {isa = PBXBuildFile; productRef = 115369F22E8E67B60061877E /* BBPermissionBluetooth */; };
+		115369F52E8E67B60061877E /* BBPermissionCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 115369F42E8E67B60061877E /* BBPermissionCalendar */; };
+		115369F72E8E67B60061877E /* BBPermissionCamera in Frameworks */ = {isa = PBXBuildFile; productRef = 115369F62E8E67B60061877E /* BBPermissionCamera */; };
+		115369F92E8E67B60061877E /* BBPermissionContacts in Frameworks */ = {isa = PBXBuildFile; productRef = 115369F82E8E67B60061877E /* BBPermissionContacts */; };
+		115369FB2E8E67B60061877E /* BBPermissionHealth in Frameworks */ = {isa = PBXBuildFile; productRef = 115369FA2E8E67B60061877E /* BBPermissionHealth */; };
+		115369FD2E8E67B60061877E /* BBPermissionLocation in Frameworks */ = {isa = PBXBuildFile; productRef = 115369FC2E8E67B60061877E /* BBPermissionLocation */; };
+		115369FF2E8E67B60061877E /* BBPermissionMicrophone in Frameworks */ = {isa = PBXBuildFile; productRef = 115369FE2E8E67B60061877E /* BBPermissionMicrophone */; };
+		11536A012E8E67B60061877E /* BBPermissionMotion in Frameworks */ = {isa = PBXBuildFile; productRef = 11536A002E8E67B60061877E /* BBPermissionMotion */; };
+		11536A032E8E67B60061877E /* BBPermissionNotification in Frameworks */ = {isa = PBXBuildFile; productRef = 11536A022E8E67B60061877E /* BBPermissionNotification */; };
+		11536A052E8E67B60061877E /* BBPermissionPhoto in Frameworks */ = {isa = PBXBuildFile; productRef = 11536A042E8E67B60061877E /* BBPermissionPhoto */; };
+		11536A072E8E67B60061877E /* BBPermissionReminder in Frameworks */ = {isa = PBXBuildFile; productRef = 11536A062E8E67B60061877E /* BBPermissionReminder */; };
+		11536A092E8E67B60061877E /* BBPermissionSiri in Frameworks */ = {isa = PBXBuildFile; productRef = 11536A082E8E67B60061877E /* BBPermissionSiri */; };
+		11536A0B2E8E67B60061877E /* BBPermissionSpeech in Frameworks */ = {isa = PBXBuildFile; productRef = 11536A0A2E8E67B60061877E /* BBPermissionSpeech */; };
+		11536A0D2E8E67B60061877E /* BBPermissionsKit in Frameworks */ = {isa = PBXBuildFile; productRef = 11536A0C2E8E67B60061877E /* BBPermissionsKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11AE8A2F2E8E65EA00A35CDE /* SampleUiKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleUiKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		11AE8A412E8E65EC00A35CDE /* Exceptions for "SampleUiKit" folder in "SampleUiKit" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 11AE8A2E2E8E65EA00A35CDE /* SampleUiKit */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		11AE8A312E8E65EA00A35CDE /* SampleUiKit */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				11AE8A412E8E65EC00A35CDE /* Exceptions for "SampleUiKit" folder in "SampleUiKit" target */,
+			);
+			path = SampleUiKit;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11AE8A2C2E8E65EA00A35CDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11536A052E8E67B60061877E /* BBPermissionPhoto in Frameworks */,
+				115369F92E8E67B60061877E /* BBPermissionContacts in Frameworks */,
+				11536A092E8E67B60061877E /* BBPermissionSiri in Frameworks */,
+				115369F72E8E67B60061877E /* BBPermissionCamera in Frameworks */,
+				115369FD2E8E67B60061877E /* BBPermissionLocation in Frameworks */,
+				11536A0B2E8E67B60061877E /* BBPermissionSpeech in Frameworks */,
+				115369F32E8E67B60061877E /* BBPermissionBluetooth in Frameworks */,
+				115369FB2E8E67B60061877E /* BBPermissionHealth in Frameworks */,
+				11536A0D2E8E67B60061877E /* BBPermissionsKit in Frameworks */,
+				11536A012E8E67B60061877E /* BBPermissionMotion in Frameworks */,
+				115369FF2E8E67B60061877E /* BBPermissionMicrophone in Frameworks */,
+				115369F12E8E67B60061877E /* BBPermissionAppleMusic in Frameworks */,
+				115369EF2E8E67B60061877E /* BBPermissionAppTracking in Frameworks */,
+				11536A072E8E67B60061877E /* BBPermissionReminder in Frameworks */,
+				115369F52E8E67B60061877E /* BBPermissionCalendar in Frameworks */,
+				11536A032E8E67B60061877E /* BBPermissionNotification in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11AE8A262E8E65EA00A35CDE = {
+			isa = PBXGroup;
+			children = (
+				11AE8A312E8E65EA00A35CDE /* SampleUiKit */,
+				11AE8A302E8E65EA00A35CDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11AE8A302E8E65EA00A35CDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11AE8A2F2E8E65EA00A35CDE /* SampleUiKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11AE8A2E2E8E65EA00A35CDE /* SampleUiKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11AE8A422E8E65EC00A35CDE /* Build configuration list for PBXNativeTarget "SampleUiKit" */;
+			buildPhases = (
+				11AE8A2B2E8E65EA00A35CDE /* Sources */,
+				11AE8A2C2E8E65EA00A35CDE /* Frameworks */,
+				11AE8A2D2E8E65EA00A35CDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				11AE8A312E8E65EA00A35CDE /* SampleUiKit */,
+			);
+			name = SampleUiKit;
+			packageProductDependencies = (
+				115369EE2E8E67B60061877E /* BBPermissionAppTracking */,
+				115369F02E8E67B60061877E /* BBPermissionAppleMusic */,
+				115369F22E8E67B60061877E /* BBPermissionBluetooth */,
+				115369F42E8E67B60061877E /* BBPermissionCalendar */,
+				115369F62E8E67B60061877E /* BBPermissionCamera */,
+				115369F82E8E67B60061877E /* BBPermissionContacts */,
+				115369FA2E8E67B60061877E /* BBPermissionHealth */,
+				115369FC2E8E67B60061877E /* BBPermissionLocation */,
+				115369FE2E8E67B60061877E /* BBPermissionMicrophone */,
+				11536A002E8E67B60061877E /* BBPermissionMotion */,
+				11536A022E8E67B60061877E /* BBPermissionNotification */,
+				11536A042E8E67B60061877E /* BBPermissionPhoto */,
+				11536A062E8E67B60061877E /* BBPermissionReminder */,
+				11536A082E8E67B60061877E /* BBPermissionSiri */,
+				11536A0A2E8E67B60061877E /* BBPermissionSpeech */,
+				11536A0C2E8E67B60061877E /* BBPermissionsKit */,
+			);
+			productName = SampleUiKit;
+			productReference = 11AE8A2F2E8E65EA00A35CDE /* SampleUiKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11AE8A272E8E65EA00A35CDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					11AE8A2E2E8E65EA00A35CDE = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 11AE8A2A2E8E65EA00A35CDE /* Build configuration list for PBXProject "SampleUiKit" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11AE8A262E8E65EA00A35CDE;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				115369ED2E8E67B60061877E /* XCLocalSwiftPackageReference "../../../BBPermission" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 11AE8A302E8E65EA00A35CDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11AE8A2E2E8E65EA00A35CDE /* SampleUiKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11AE8A2D2E8E65EA00A35CDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11AE8A2B2E8E65EA00A35CDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		11AE8A432E8E65EC00A35CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SampleUiKit/SampleUiKit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3L7K9287C3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SampleUiKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beakbig.SampleUiKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11AE8A442E8E65EC00A35CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SampleUiKit/SampleUiKit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3L7K9287C3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SampleUiKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beakbig.SampleUiKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11AE8A452E8E65EC00A35CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11AE8A462E8E65EC00A35CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11AE8A2A2E8E65EA00A35CDE /* Build configuration list for PBXProject "SampleUiKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11AE8A452E8E65EC00A35CDE /* Debug */,
+				11AE8A462E8E65EC00A35CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11AE8A422E8E65EC00A35CDE /* Build configuration list for PBXNativeTarget "SampleUiKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11AE8A432E8E65EC00A35CDE /* Debug */,
+				11AE8A442E8E65EC00A35CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		115369ED2E8E67B60061877E /* XCLocalSwiftPackageReference "../../../BBPermission" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../../BBPermission;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		115369EE2E8E67B60061877E /* BBPermissionAppTracking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BBPermissionAppTracking;
+		};
+		115369F02E8E67B60061877E /* BBPermissionAppleMusic */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BBPermissionAppleMusic;
+		};
+		115369F22E8E67B60061877E /* BBPermissionBluetooth */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BBPermissionBluetooth;
+		};
+		115369F42E8E67B60061877E /* BBPermissionCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BBPermissionCalendar;
+		};
+		115369F62E8E67B60061877E /* BBPermissionCamera */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BBPermissionCamera;
+		};
+		115369F82E8E67B60061877E /* BBPermissionContacts */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BBPermissionContacts;
+		};
+		115369FA2E8E67B60061877E /* BBPermissionHealth */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BBPermissionHealth;
+		};
+		115369FC2E8E67B60061877E /* BBPermissionLocation */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BBPermissionLocation;
+		};
+		115369FE2E8E67B60061877E /* BBPermissionMicrophone */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BBPermissionMicrophone;
+		};
+		11536A002E8E67B60061877E /* BBPermissionMotion */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BBPermissionMotion;
+		};
+		11536A022E8E67B60061877E /* BBPermissionNotification */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BBPermissionNotification;
+		};
+		11536A042E8E67B60061877E /* BBPermissionPhoto */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BBPermissionPhoto;
+		};
+		11536A062E8E67B60061877E /* BBPermissionReminder */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BBPermissionReminder;
+		};
+		11536A082E8E67B60061877E /* BBPermissionSiri */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BBPermissionSiri;
+		};
+		11536A0A2E8E67B60061877E /* BBPermissionSpeech */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BBPermissionSpeech;
+		};
+		11536A0C2E8E67B60061877E /* BBPermissionsKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BBPermissionsKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 11AE8A272E8E65EA00A35CDE /* Project object */;
+}

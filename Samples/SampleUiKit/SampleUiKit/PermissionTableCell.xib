@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="PermissionTableCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PermissionTableCell" rowHeight="80" id="WTq-lS-Wd8" customClass="PermissionTableCell" customModule="BBPermission" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WTq-lS-Wd8" id="L50-ya-veY">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="msd-Sc-p7e">
+                        <rect key="frame" x="16" y="8" width="361" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="r7F-6E-2Cx"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" name="NormalText"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tIX-KG-D4A">
+                        <rect key="frame" x="24" y="52" width="345" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" name="NormalText"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" name="Background"/>
+                <constraints>
+                    <constraint firstItem="tIX-KG-D4A" firstAttribute="top" secondItem="msd-Sc-p7e" secondAttribute="bottom" constant="4" id="EDS-15-DQi"/>
+                    <constraint firstItem="msd-Sc-p7e" firstAttribute="top" secondItem="L50-ya-veY" secondAttribute="top" constant="8" id="Joe-Zu-Ovq"/>
+                    <constraint firstItem="msd-Sc-p7e" firstAttribute="leading" secondItem="L50-ya-veY" secondAttribute="leading" constant="16" id="PS5-YE-ldg"/>
+                    <constraint firstAttribute="bottom" secondItem="tIX-KG-D4A" secondAttribute="bottom" constant="8" id="au5-0N-9Uq"/>
+                    <constraint firstAttribute="trailing" secondItem="tIX-KG-D4A" secondAttribute="trailing" constant="24" id="byF-cH-Ipq"/>
+                    <constraint firstItem="tIX-KG-D4A" firstAttribute="leading" secondItem="L50-ya-veY" secondAttribute="leading" constant="24" id="iu0-ob-gKs"/>
+                    <constraint firstAttribute="trailing" secondItem="msd-Sc-p7e" secondAttribute="trailing" constant="16" id="nd4-pF-21R"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="lblPermissionName" destination="msd-Sc-p7e" id="13C-Mh-H2F"/>
+                <outlet property="lblPermissionState" destination="tIX-KG-D4A" id="qVH-an-MJ5"/>
+            </connections>
+            <point key="canvasLocation" x="264.8854961832061" y="-40.492957746478872"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Background">
+            <color red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="NormalText">
+            <color red="0.10980392156862745" green="0.10980392156862745" blue="0.11764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

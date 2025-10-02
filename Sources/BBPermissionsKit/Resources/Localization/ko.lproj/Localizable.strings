@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  BBPermissionsKit
+*/
+
+"alertTitle" = "알림";
+"alertButtonConfirm" = "확인";
+"alertButtonCancel" = "닫기";
+"alertButtonSetting" = "설정이동";
+"unknownPlistDescription" = "을(를) info.plist에 추가해주세요.";
+
+"NSAppleMusicUsageDescription" = "Apple Music 기능을 사용하려면 iPhone 설정 앱의 '개인정보 및 보안' > '미디어 및 Apple Music' 접근 권한을 허용해야 합니다.";
+"NSUserTrackingUsageDescription" = "앱 추적 기능을 사용하려면 iPhone 설정 앱의 '개인정보 및 보안' > '추적' 접근 권한을 허용해야 합니다.";
+"NSBluetoothAlwaysUsageDescription" = "Bluetooth 항상 접근 기능을 사용하려면 iPhone 설정 앱의 '개인정보 및 보안' > 'Bluetooth' 접근 권한을 허용해야 합니다.";
+"NSCalendarsFullAccessUsageDescription" = "캘린더 전체 접근 기능을 사용하려면 iPhone 설정 앱의 '개인정보 및 보안' > '캘린더' 접근 권한을 허용해야 합니다.";
+"NSCalendarsWriteOnlyAccessUsageDescription" = "캘린더 쓰기 전용 기능을 사용하려면 iPhone 설정 앱의 '개인정보 및 보안' > '캘린더' 접근 권한을 허용해야 합니다.";
+"NSCameraUsageDescription" = "카메라 기능을 사용하려면 iPhone 설정 앱의 '개인정보 및 보안' > '카메라' 접근 권한을 허용해야 합니다.";
+"NSContactsUsageDescription" = "연락처 기능을 사용하려면 iPhone 설정 앱의 '개인정보 및 보안' > '연락처' 접근 권한을 허용해야 합니다.";
+"NSHealthShareUsageDescription" = "건강 공유 기능을 사용하려면 iPhone 설정 앱의 '개인정보 및 보안' > '건강' 접근 권한을 허용해야 합니다.";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "항상 및 사용 중 위치 정보 접근을 허용하려면 iPhone 설정 앱의 '개인정보 및 보안' > '위치 서비스' 접근 권한을 허용해야 합니다.";
+"NSLocationWhenInUseUsageDescription" = "앱 사용 중 위치 정보 접근을 허용하려면 iPhone 설정 앱의 '개인정보 및 보안' > '위치 서비스' 접근 권한을 허용해야 합니다.";
+"NSMicrophoneUsageDescription" = "마이크 기능을 사용하려면 iPhone 설정 앱의 '개인정보 및 보안' > '마이크' 접근 권한을 허용해야 합니다.";
+"NSMotionUsageDescription" = "동작 및 피트니스 기능을 사용하려면 iPhone 설정 앱의 '개인정보 및 보안' > '동작 및 피트니스' 접근 권한을 허용해야 합니다.";
+"NSNotificationDescription" = "알림 기능을 사용하려면 iPhone 설정 앱의 '알림' > '알림' 접근권한을 허용해야 합니다.";
+"NSPhotoLibraryUsageDescription" = "사진 라이브러리 전체 접근 기능을 사용하려면 iPhone 설정 앱의 '개인정보 및 보안' > '사진' 접근 권한을 허용해야 합니다.";
+"NSPhotoLibraryAddUsageDescription" = "사진 라이브러리에 추가 기능을 사용하려면 iPhone 설정 앱의 '개인정보 및 보안' > '사진' 접근 권한을 허용해야 합니다.";
+"NSRemindersFullAccessUsageDescription" = "미리 알림 전체 접근 기능을 사용하려면 iPhone 설정 앱의 '개인정보 및 보안' > '미리 알림' 접근 권한을 허용해야 합니다.";
+/* [Deprecated: iOS 17+에서 NSRemindersFullAccessUsageDescription 사용 권장] */
+"NSRemindersUsageDescription" = "미리 알림 기능을 사용하려면 iPhone 설정 앱의 '개인정보 및 보안' > '미리 알림' 접근 권한을 허용해야 합니다.";
+"NSSiriUsageDescription" = "Siri 기능을 사용하려면 iPhone 설정 앱의 '개인정보 및 보안' > 'Siri 및 음성 입력' 접근 권한을 허용해야 합니다.";
+"NSSpeechRecognitionUsageDescription" = "음성 인식 기능을 사용하려면 iPhone 설정 앱의 '개인정보 및 보안' > '음성 인식' 접근 권한을 허용해야 합니다.";

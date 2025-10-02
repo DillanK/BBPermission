@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  BBPermissionsKit
+*/
+
+"alertTitle" = "Alert";
+"alertButtonConfirm" = "Confirm";
+"alertButtonCancel" = "Close";
+"alertButtonSetting" = "Go to Settings";
+"unknownPlistDescription" = " Please add it to Info.plist.";
+
+"NSAppleMusicUsageDescription" = "To use Apple Music features, you must allow access to 'Media & Apple Music' in the iPhone Settings app under 'Privacy & Security'.";
+"NSUserTrackingUsageDescription" = "To use app tracking features, you must allow access to 'Tracking' in the iPhone Settings app under 'Privacy & Security'.";
+"NSBluetoothAlwaysUsageDescription" = "To use always-on Bluetooth access features, you must allow access to 'Bluetooth' in the iPhone Settings app under 'Privacy & Security'.";
+"NSCalendarsFullAccessUsageDescription" = "To use full calendar access features, you must allow access to 'Calendars' in the iPhone Settings app under 'Privacy & Security'.";
+"NSCalendarsWriteOnlyAccessUsageDescription" = "To use write-only calendar features, you must allow access to 'Calendars' in the iPhone Settings app under 'Privacy & Security'.";
+"NSCameraUsageDescription" = "To use camera features, you must allow access to 'Camera' in the iPhone Settings app under 'Privacy & Security'.";
+"NSContactsUsageDescription" = "To use contacts features, you must allow access to 'Contacts' in the iPhone Settings app under 'Privacy & Security'.";
+"NSHealthShareUsageDescription" = "To use health sharing features, you must allow access to 'Health' in the iPhone Settings app under 'Privacy & Security'.";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "To allow always and during-use location access, you must enable 'Location Services' in the iPhone Settings app under 'Privacy & Security'.";
+"NSLocationWhenInUseUsageDescription" = "To allow location access during app use, you must enable 'Location Services' in the iPhone Settings app under 'Privacy & Security'.";
+"NSMicrophoneUsageDescription" = "To use microphone features, you must allow access to 'Microphone' in the iPhone Settings app under 'Privacy & Security'.";
+"NSMotionUsageDescription" = "To use motion and fitness features, you must allow access to 'Motion & Fitness' in the iPhone Settings app under 'Privacy & Security'.";
+"NSNotificationDescription" = "To use notification features, you must allow access to 'Notifications' in the iPhone Settings app.";
+"NSPhotoLibraryUsageDescription" = "To use full photo library access features, you must allow access to 'Photos' in the iPhone Settings app under 'Privacy & Security'.";
+"NSPhotoLibraryAddUsageDescription" = "To use photo library add features, you must allow access to 'Photos' in the iPhone Settings app under 'Privacy & Security'.";
+"NSRemindersFullAccessUsageDescription" = "To use full reminders access features, you must allow access to 'Reminders' in the iPhone Settings app under 'Privacy & Security'.";
+/* [Deprecated: Use NSRemindersFullAccessUsageDescription for iOS 17+] */
+"NSRemindersUsageDescription" = "To use reminders features, you must allow access to 'Reminders' in the iPhone Settings app under 'Privacy & Security'.";
+"NSSiriUsageDescription" = "To use Siri features, you must allow access to 'Siri & Dictation' in the iPhone Settings app under 'Privacy & Security'.";
+"NSSpeechRecognitionUsageDescription" = "To use speech recognition features, you must allow access to 'Speech Recognition' in the iPhone Settings app under 'Privacy & Security'.";
