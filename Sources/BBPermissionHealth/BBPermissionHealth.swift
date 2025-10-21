@@ -24,16 +24,16 @@ import HealthKit
 /// - HealthKit
 ///
 public class BBPermissionHealth: BBPermissionBase, BBPermissionProtocol {
-    private var readTypes: Set<HKObjectType>
-    private var writeTypes: Set<HKSampleType>
+    private var readType: HKObjectType
+    private var writeType: HKSampleType
 
     /// 달력 권한 요청
     /// - Parameters:
     ///   - customNoAccessMessage: 권한 없는 경우 표시 할 메시지
     ///   - type: 요청할 권한
-    public init(readTypes: Set<HKObjectType>, writeTypes: Set<HKSampleType>) {
-        self.readTypes = readTypes
-        self.writeTypes = writeTypes
+    public init(readType: HKObjectType, writeType: HKSampleType) {
+        self.readType = readType
+        self.writeType = writeType
         super.init()
     }
     
@@ -41,12 +41,17 @@ public class BBPermissionHealth: BBPermissionBase, BBPermissionProtocol {
         var finalStatus: BBPermissionStatus = .denied
         let semaphore = DispatchSemaphore(value: 0) // 스레드 동기화를 위한 세마포어
 
-        HKHealthStore().getRequestStatusForAuthorization(toShare: writeTypes, read: readTypes) { status, error in
+        HKHealthStore().getRequestStatusForAuthorization(toShare: [writeType], read: [readType]) { status, error in
             if error == nil {
                 if status == .shouldRequest {
                     finalStatus = .notDetermined
                 } else if status == .unnecessary {
-                    finalStatus = .authorized
+                    let healthStatus = HKHealthStore().authorizationStatus(for: self.readType)
+                    if healthStatus == .sharingAuthorized {
+                        finalStatus = .authorized
+                    } else {
+                        finalStatus = .denied
+                    }
                 } else {
                     finalStatus = .denied
                 }
@@ -64,8 +69,8 @@ public class BBPermissionHealth: BBPermissionBase, BBPermissionProtocol {
             return
         }
 #endif
-        HKHealthStore().requestAuthorization(toShare: writeTypes,
-                                             read: readTypes) { isGranted, error in
+        HKHealthStore().requestAuthorization(toShare: [writeType],
+                                             read: [readType]) { isGranted, error in
             guard error == nil else {
                 debugPrint(#file, #function, "Error Description : \(String(describing: error?.localizedDescription))")
                 completion(.denied)

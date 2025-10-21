@@ -39,7 +39,7 @@ public class BBPermissionLocation: BBPermissionBase, BBPermissionProtocol {
     }
     
     public func status() -> BBPermissionStatus {
-        return locationManager.convertStatus()
+        return locationManager.convertStatus(status: CLLocationManager.authorizationStatus())
     }
 
     public func requestPermission(completion: @escaping (BBPermissionStatus) -> ()) {
@@ -54,7 +54,7 @@ public class BBPermissionLocation: BBPermissionBase, BBPermissionProtocol {
             }
         }
 #endif
-        locationManager.onLocationPermission.sink { status in
+        locationManager.onLocationPermission.dropFirst().sink { status in
             self.cancellable.removeAll()
             completion(status)
         }.store(in: &cancellable)

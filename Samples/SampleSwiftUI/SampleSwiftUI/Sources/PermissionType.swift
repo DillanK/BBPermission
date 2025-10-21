@@ -67,7 +67,7 @@ enum PermissionType: CaseIterable {
             case .speech:
                 "음성 인식 접근 권한"
             case .appTracking:
-                "앱 추적 투명성 접근 권한"
+                "앱 추적 접근 권한"
         }
     }
     

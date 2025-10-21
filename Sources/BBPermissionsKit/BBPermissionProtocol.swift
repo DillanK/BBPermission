@@ -16,17 +16,20 @@ public protocol BBPermissionProtocol {
 
 extension BBPermissionProtocol {
     public func requestPermission(with deniedMessage: Bool, completed: @escaping (BBPermissionStatus) -> ()) {
+        debugPrint(#file, #function)
         let status = status()
         if status == .authorized || status == .limitedAuthorized {
             completed(status)
         } else if status == .notDetermined {
-            requestPermission { status in
-                if deniedMessage {
+            requestPermission { reqStatus in
+                if reqStatus == .authorized || reqStatus == .limitedAuthorized {
+                    completed(reqStatus)
+                } else if reqStatus == .denied {
                     self.showDeniedPermissionDialog { isGoSetting in
                         completed(isGoSetting ? .deniedAndNeedsSettings : .denied)
                     }
                 } else {
-                    completed((status == .authorized || status == .limitedAuthorized) ? status : .denied)
+                    completed(.denied)
                 }
             }
         } else {
@@ -43,12 +46,12 @@ extension BBPermissionProtocol {
     }
     
     private func showDeniedPermissionDialog(completed: @escaping (Bool) -> ()) {
-        guard let vcRoot = BBPermissionUtil.rootViewController() else {
-            completed(false)
-            return
-        }
- 
         DispatchQueue.main.async {
+            guard let vcRoot = BBPermissionUtil.rootViewController() else {
+                completed(false)
+                return
+            }
+ 
             let vcAlert = UIAlertController(title: BBPermissionUtil.localizable(key: "alertTitle"),
                                             message: accessDeniedMessage(),
                                             preferredStyle: .alert)
